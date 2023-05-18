@@ -57,7 +57,7 @@ function MensPage3(){
                     BACK
                 </div>
             <div>
-                <p className='flo'>FLow-her</p>
+                <p className='flos'>FLow-her</p>
             </div>
 
             <li>

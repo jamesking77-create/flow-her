@@ -22,9 +22,9 @@ function MenstrualApp(){
             <p className='flo'>FLow-her</p>
             
 
-            <li>
+            <div className='fq'>
                 <p>FAQ</p>
-            </li>
+            </div>
 
             <li>
                 <p>TIps & Advice</p>
@@ -45,12 +45,12 @@ function MenstrualApp(){
 
             <div className='box-1'>
 
-                        <div className="center">
-                                 <a href='attr'><span data-attr="Learn">Learn</span><span data-attr="More"></span></a>
+                        <div className="center" onClick={() => {window.location.href ='page4'}}>
+                                 <a><span data-attr="Learn">Learn</span><span data-attr="More"></span></a>
                         </div>
                     
 
-                        <div className='pregbox'>
+                        <div className='pregbox' >
                          <video src={video} className='video' type='video/mp4' controls muted loop autoPlay></video>
                         </div>
                     </div>
@@ -89,15 +89,15 @@ function MenstrualApp(){
 
                        
 
-                        <div className='but-ton'>
+                        <div className='but-tons'>
 
-                            <p className='btn-Text'>
+                            <p className='btn-Texts'>
                                 TRACK <br />
                                 my pregnancy 
                             </p>
 
-                            <div className='btn-Two'>
-                                <p className='btn-Text2'>&#127804;</p>
+                            <div className='btn-Twos'>
+                                <p className='btn-Text2s'>&#127804;</p>
                             </div>
                             </div>
 
